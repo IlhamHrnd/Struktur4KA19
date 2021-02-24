@@ -1,0 +1,93 @@
+﻿html {
+    margin: 0px;
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    background-image: linear-gradient(to bottom right, #2193b0, #6dd5ed);
+    background-repeat: no-repeat;
+}
+
+.card {
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.65);
+    height: 450px;
+    margin: 6rem auto 9rem auto;
+    width: 330px;
+}
+
+.cardcontent {
+    padding: 15px 45px;
+}
+
+.cardtitle {
+    font-family: 'Pangolin', cursive;
+    letter-spacing: 5px;
+    padding-bottom: 25px;
+    padding-top: 15px;
+    text-align: center;
+}
+
+.welcome {
+    font-size: 30px;
+    background: -webkit-linear-gradient(#2193b0, #6dd5ed);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.underline {
+    background: -webkit-linear-gradient(#2193b0, #6dd5ed);
+    height: 2px;
+    margin: -1.1rem auto 0 auto;
+    width: 90px;
+}
+
+.form {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.formcontent {
+    background: #ffffff;
+    border: none;
+    outline: none;
+    padding-top: 15px;
+    text-align: center;
+}
+
+.formborder {
+    background: -webkit-linear-gradient(right, #2193b0, #6dd5ed);
+    height: 2px;
+    width: 100%;
+}
+
+.formaccount {
+    color: #2193b0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 10pt;
+    margin-top: 15px;
+    text-align: right;
+}
+
+.btnlogin {
+    background: -webkit-linear-gradient(right, #2193b0, #6dd5ed);
+    border: none;
+    border-radius: 25px;
+    box-shadow: 0px 1px 10px #15a6d6;
+    cursor: pointer;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    height: 45px;
+    margin: 0 auto;
+    margin-top: 20px;
+    transition: 0.25s;
+    width: 150px;
+    outline: none;
+}
+
+.btnlogin:hover {
+    box-shadow: 0px 1px 20px #226073;
+}
