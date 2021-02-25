@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="FormMhs.aspx.cs" Inherits="Struktur4KA19.Forms.FormMhs" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="FormMhs.aspx.cs" Inherits="Struktur4KA19.FormsUser.FormMhs" %>
 
 <!DOCTYPE html>
 
@@ -53,11 +53,10 @@
             <div class="innertube">
                 <h3><i class="fa fa-list-ol"></i>&nbsp; Menu</h3>
                 <ul>
-                    <li><a href="FormAdmin.aspx">Home</a></li>
+                    <li><a href="FormUser.aspx">Home</a></li>
                     <li><a href="KetuaKelas.aspx">Ketua Kelas</a></li>
                     <li><a href="WakilKetua.aspx">Wakil Ketua</a></li>
                     <li><a class="active">Mahasiswa</a></li>
-                    <li><a href="EditData.aspx">Edit Data</a></li>
                 </ul>
             </div>
         </nav>
