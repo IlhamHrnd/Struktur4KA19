@@ -6,4 +6,10 @@ Login Dengan
 Username : Admin
 Password : Admin
 
-Agar dapat masuk ke halaman index
+Agar dapat masuk ke halaman FormAdmin
+
+Login Dengan
+Username : User
+Password : User
+
+Agar dapat masuk ke halaman FormUser
